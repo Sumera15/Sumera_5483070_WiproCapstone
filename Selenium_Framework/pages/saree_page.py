@@ -1,4 +1,5 @@
 from selenium.webdriver.common.by import By
+from selenium.webdriver.common.action_chains import ActionChains
 import time
 
 
@@ -40,10 +41,10 @@ class SareePage:
 
         sort = driver.find_element(
             By.XPATH,
-            "//div[contains(text(),'Sort by')]"
+            "//span[contains(text(),'Recommended')]"
         )
 
-        driver.execute_script("arguments[0].click();", sort)
+        sort.click()
 
         time.sleep(2)
 
@@ -52,7 +53,15 @@ class SareePage:
             "//label[contains(text(),'Customer Rating')]"
         )
 
-        driver.execute_script("arguments[0].click();", rating)
+        rating.click()
+
+        time.sleep(5)
+
+        driver.execute_script(
+            "window.scrollBy(0, 600);"
+        )
+
+        time.sleep(5)
 
     def select_first_product(self, driver):
 
@@ -60,7 +69,16 @@ class SareePage:
 
         product = driver.find_element(
             By.XPATH,
-            "(//img[@class='img-responsive'])[1]"
+            "(//a[@target='_blank'])[3]"
         )
 
-        driver.execute_script("arguments[0].click();", product)
+        driver.execute_script(
+            "arguments[0].click();",
+            product
+        )
+
+        time.sleep(5)
+
+        driver.switch_to.window(
+            driver.window_handles[1]
+        )

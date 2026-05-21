@@ -1,0 +1,16 @@
+[32mINFO    [0m WDM:logger.py:11 ====== WebDriver manager ======
+[32mINFO    [0m WDM:logger.py:11 Driver [C:\Users\Aziz Shaik\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win64/chromedriver.exe] found in cache by browser version
+[32mINFO    [0m root:logger.py:38 Myntra opened
+[32mINFO    [0m root:logger.py:38 Women section clicked
+[32mINFO    [0m root:logger.py:38 Ethnic wear page opened
+[32mINFO    [0m root:logger.py:38 Sarees filter selected
+[32mINFO    [0m root:logger.py:38 Blue color selected
+[32mINFO    [0m root:logger.py:38 Sorted by customer rating
+[32mINFO    [0m root:logger.py:38 Product selected
+[32mINFO    [0m root:logger.py:38 Product added to bag
+[32mINFO    [0m root:logger.py:38 Bag page opened
+[32mINFO    [0m root:logger.py:38 Quantity dropdown opened
+[32mINFO    [0m root:logger.py:38 Quantity changed to 2
+[32mINFO    [0m root:logger.py:38 Done button clicked
+[32mINFO    [0m root:logger.py:38 Donation amount selected
+[32mINFO    [0m root:logger.py:38 Place order clicked

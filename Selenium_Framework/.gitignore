@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+
+allure-results/
+logs/
+screenshots/
+reports/
+
+~$*.xlsx
+
+.vscode/
+.idea/

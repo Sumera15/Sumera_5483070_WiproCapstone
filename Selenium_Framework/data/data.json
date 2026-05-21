@@ -1,0 +1,47 @@
+{
+  "kurti_navigation": {
+    "category": "Kurti",
+    "page": "Ethnic Tops",
+    "expected_url": "ethnic-tops"
+  },
+
+  "pink_tshirt_filter": {
+    "category": "Tshirts",
+    "color": "Pink",
+    "expected_url": "tshirts"
+  },
+
+  "earrings_add_to_bag": {
+    "category": "Earrings",
+    "product_action": "Add To Bag",
+    "expected_result": "bag"
+  },
+
+  "flats_sorting": {
+    "category": "Flats",
+    "sort_by": "Price High To Low",
+    "expected_url": "flats"
+  },
+
+  "size_validation": {
+    "category": "Tshirts",
+    "validation": "Select Size",
+    "expected_result": "select"
+  },
+
+  "pincode_validation": {
+    "category": "Heels",
+    "validation": "Enter Pincode",
+    "expected_result": "pincode"
+  },
+
+  "end_to_end_flow": {
+    "category": "Sarees",
+    "page": "Fusion Wear",
+    "color": "Blue",
+    "quantity": 2,
+    "donation": 20,
+    "sort_by": "Customer Rating",
+    "expected_validation": "login"
+  }
+}

@@ -1,0 +1,25 @@
+2026-05-21 21:33:10,586 - ====== WebDriver manager ======
+2026-05-21 21:33:12,133 - Driver [C:\Users\Aziz Shaik\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win64/chromedriver.exe] found in cache by browser version
+2026-05-21 21:33:13,551 - Starting Scenario: Successful saree purchase flow
+2026-05-21 21:33:14,419 - Myntra opened
+2026-05-21 21:33:21,039 - Hovered on Women section
+2026-05-21 21:33:37,725 - Completed Scenario: Successful saree purchase flow
+2026-05-21 21:33:40,734 - ====== WebDriver manager ======
+2026-05-21 21:33:42,440 - Driver [C:\Users\Aziz Shaik\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win64/chromedriver.exe] found in cache by browser version
+2026-05-21 21:39:48,360 - ====== WebDriver manager ======
+2026-05-21 21:39:50,162 - Driver [C:\Users\Aziz Shaik\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win64/chromedriver.exe] found in cache by browser version
+2026-05-21 21:39:52,226 - Starting Scenario: Successful saree purchase flow
+2026-05-21 21:39:56,117 - Myntra opened
+2026-05-21 21:39:58,883 - Hovered on Women section
+2026-05-21 21:40:03,040 - ====== WebDriver manager ======
+2026-05-21 21:40:06,454 - Driver [C:\Users\Aziz Shaik\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win64/chromedriver.exe] found in cache by browser version
+2026-05-21 21:40:07,694 - Starting Scenario: Verify Kurti Navigation
+2026-05-21 21:40:13,634 - Myntra opened
+2026-05-21 21:54:58,339 - ====== WebDriver manager ======
+2026-05-21 21:55:00,537 - Driver [C:\Users\Aziz Shaik\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win64/chromedriver.exe] found in cache by browser version
+2026-05-21 21:55:03,050 - Starting Scenario: Successful saree purchase flow
+2026-05-21 21:55:09,069 - Myntra opened
+2026-05-21 21:55:09,897 - Hovered on Women section
+2026-05-21 21:55:25,458 - Completed Scenario: Successful saree purchase flow
+2026-05-21 21:55:29,749 - ====== WebDriver manager ======
+2026-05-21 21:55:40,193 - Driver [C:\Users\Aziz Shaik\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win64/chromedriver.exe] found in cache by browser version

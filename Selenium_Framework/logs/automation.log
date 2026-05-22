@@ -1,56 +1,38 @@
-2026-05-21 07:03:47,162 - ====== WebDriver manager ======
-2026-05-21 07:03:49,120 - Get LATEST chromedriver version for google-chrome
-2026-05-21 07:03:50,539 - Get LATEST chromedriver version for google-chrome
-2026-05-21 07:03:51,688 - WebDriver version 148.0.7778.178 selected
-2026-05-21 07:03:51,698 - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/148.0.7778.178/win64/chromedriver-win64.zip
-2026-05-21 07:03:51,699 - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/148.0.7778.178/win64/chromedriver-win64.zip
-2026-05-21 07:03:52,389 - Driver downloading response is 200
-2026-05-21 07:03:55,904 - Driver has been saved in cache [C:\Users\Aziz Shaik\.wdm\drivers\chromedriver\win64\148.0.7778.178]
-2026-05-21 07:04:00,059 - Myntra opened
-2026-05-21 07:04:14,171 - Kurti page opened
-2026-05-21 07:04:22,183 - ====== WebDriver manager ======
-2026-05-21 07:04:23,285 - Driver [C:\Users\Aziz Shaik\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win64/chromedriver.exe] found in cache by browser version
-2026-05-21 07:04:25,143 - Myntra opened
-2026-05-21 07:04:41,910 - Tshirt page opened
-2026-05-21 07:04:55,080 - Pink color selected
-2026-05-21 07:05:05,159 - Slow scrolling completed
-2026-05-21 07:05:13,041 - ====== WebDriver manager ======
-2026-05-21 07:05:13,967 - Driver [C:\Users\Aziz Shaik\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win64/chromedriver.exe] found in cache by browser version
-2026-05-21 07:05:19,008 - Myntra opened
-2026-05-21 07:05:33,160 - Earrings page opened
-2026-05-21 07:05:43,414 - Earrings product selected
-2026-05-21 07:05:53,615 - Product added to bag
-2026-05-21 07:06:01,961 - ====== WebDriver manager ======
-2026-05-21 07:06:03,087 - Driver [C:\Users\Aziz Shaik\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win64/chromedriver.exe] found in cache by browser version
-2026-05-21 07:06:07,642 - Myntra opened
-2026-05-21 07:06:21,749 - Flats page opened
-2026-05-21 07:06:33,067 - Price High to Low selected
-2026-05-21 07:06:49,317 - Slow scrolling completed
-2026-05-21 07:06:57,245 - ====== WebDriver manager ======
-2026-05-21 07:06:58,325 - Driver [C:\Users\Aziz Shaik\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win64/chromedriver.exe] found in cache by browser version
-2026-05-21 07:07:02,554 - Myntra opened
-2026-05-21 07:07:14,461 - Tshirt page opened
-2026-05-21 07:07:24,706 - Product selected
-2026-05-21 07:07:34,875 - Add to bag clicked without size
-2026-05-21 07:07:42,970 - ====== WebDriver manager ======
-2026-05-21 07:07:43,870 - Driver [C:\Users\Aziz Shaik\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win64/chromedriver.exe] found in cache by browser version
-2026-05-21 07:07:45,523 - Myntra opened
-2026-05-21 07:08:00,016 - Heels page opened
-2026-05-21 07:08:10,212 - Product selected
-2026-05-21 07:08:25,949 - Check clicked without entering pincode
-2026-05-21 07:08:33,875 - ====== WebDriver manager ======
-2026-05-21 07:08:34,850 - Driver [C:\Users\Aziz Shaik\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win64/chromedriver.exe] found in cache by browser version
-2026-05-21 07:08:39,998 - Myntra opened
-2026-05-21 07:08:43,605 - Women section clicked
-2026-05-21 07:08:57,041 - Ethnic wear page opened
-2026-05-21 07:09:03,188 - Sarees filter selected
-2026-05-21 07:09:17,386 - Blue color selected
-2026-05-21 07:09:35,789 - Sorted by customer rating
-2026-05-21 07:09:48,982 - Product selected
-2026-05-21 07:10:02,194 - Product added to bag
-2026-05-21 07:10:15,732 - Bag page opened
-2026-05-21 07:10:23,891 - Quantity dropdown opened
-2026-05-21 07:10:32,945 - Quantity changed to 2
-2026-05-21 07:10:38,166 - Done button clicked
-2026-05-21 07:10:46,262 - Donation amount selected
-2026-05-21 07:11:01,906 - Place order clicked
+2026-05-22 10:52:51,335 : INFO : Myntra opened
+2026-05-22 10:53:12,597 : INFO : Kurti page opened
+2026-05-22 10:53:27,031 : INFO : Myntra opened
+2026-05-22 10:53:41,205 : INFO : Tshirt page opened
+2026-05-22 10:53:54,844 : INFO : Pink color selected
+2026-05-22 10:54:05,454 : INFO : Slow scrolling completed
+2026-05-22 10:54:19,455 : INFO : Myntra opened
+2026-05-22 10:54:39,761 : INFO : Earrings page opened
+2026-05-22 10:54:50,654 : INFO : Earrings product selected
+2026-05-22 10:55:01,666 : INFO : Product added to bag
+2026-05-22 10:55:18,433 : INFO : Myntra opened
+2026-05-22 10:55:32,544 : INFO : Flats page opened
+2026-05-22 10:55:44,582 : INFO : Price High to Low selected
+2026-05-22 10:56:01,026 : INFO : Slow scrolling completed
+2026-05-22 10:56:14,172 : INFO : Myntra opened
+2026-05-22 10:56:28,606 : INFO : Tshirt page opened
+2026-05-22 10:56:39,409 : INFO : Product selected
+2026-05-22 10:56:49,997 : INFO : Add to bag clicked without size
+2026-05-22 10:57:02,769 : INFO : Myntra opened
+2026-05-22 10:57:17,171 : INFO : Heels page opened
+2026-05-22 10:57:27,998 : INFO : Product selected
+2026-05-22 10:57:44,986 : INFO : Check clicked without entering pincode
+2026-05-22 10:57:58,537 : INFO : Myntra opened
+2026-05-22 10:58:03,652 : INFO : Women section clicked
+2026-05-22 10:58:19,871 : INFO : Ethnic wear page opened
+2026-05-22 10:58:26,657 : INFO : Sarees filter selected
+2026-05-22 10:58:41,349 : INFO : Blue color selected
+2026-05-22 10:59:00,306 : INFO : Sorted by customer rating
+2026-05-22 10:59:14,079 : INFO : Product selected
+2026-05-22 10:59:27,917 : INFO : Product added to bag
+2026-05-22 10:59:43,110 : INFO : Bag page opened
+2026-05-22 10:59:51,579 : INFO : Quantity dropdown opened
+2026-05-22 11:00:00,958 : INFO : Quantity changed to 2
+2026-05-22 11:00:06,483 : INFO : Done button clicked
+2026-05-22 11:00:15,158 : INFO : Donation amount selected
+2026-05-22 11:00:31,949 : INFO : Place order clicked
+2026-05-22 16:38:02,551 : INFO : Myntra opened
+2026-05-22 16:38:09,932 : INFO : Women section clicked

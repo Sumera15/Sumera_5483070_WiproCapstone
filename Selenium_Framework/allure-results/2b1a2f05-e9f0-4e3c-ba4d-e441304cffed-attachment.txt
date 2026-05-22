@@ -1,0 +1,4 @@
+[32mINFO    [0m root:logger.py:41 Myntra opened
+[32mINFO    [0m root:logger.py:41 Flats page opened
+[32mINFO    [0m root:logger.py:41 Price High to Low selected
+[32mINFO    [0m root:logger.py:41 Slow scrolling completed

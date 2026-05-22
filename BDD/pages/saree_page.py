@@ -23,6 +23,11 @@ class SareePage:
         "//label[contains(text(),'Blue')]"
     )
 
+    selected_blue_filter = (
+        By.XPATH,
+        "//span[contains(text(),'Blue')]"
+    )
+
     sort_dropdown = (
         By.XPATH,
         "//span[contains(text(),'Recommended')]"
@@ -49,6 +54,11 @@ class SareePage:
             saree
         )
 
+        assert saree.is_displayed(), \
+            "Sarees filter was not displayed"
+
+        print("Sarees filter selected successfully")
+
     def select_blue_color(self):
 
         blue = self.wait.wait_for_clickable(
@@ -65,6 +75,15 @@ class SareePage:
             blue
         )
 
+        selected_blue = self.wait.wait_for_visible(
+            self.selected_blue_filter
+        )
+
+        assert selected_blue.is_displayed(), \
+            "Blue filter was not applied successfully"
+
+        print("Blue filter applied successfully")
+
     def sort_by_customer_rating(self):
 
         sort = self.wait.wait_for_clickable(
@@ -78,6 +97,11 @@ class SareePage:
         )
 
         rating.click()
+
+        assert rating.is_displayed(), \
+            "Customer rating sort option not displayed"
+
+        print("Sorted by customer rating successfully")
 
         time.sleep(3)
 
@@ -97,3 +121,10 @@ class SareePage:
         self.driver.switch_to.window(
             self.driver.window_handles[1]
         )
+
+        assert len(
+            self.driver.window_handles
+        ) > 1, \
+            "Product page did not open in new tab"
+
+        print("First product selected successfully")

@@ -66,12 +66,12 @@ class PincodeValidationPage:
 
         time.sleep(3)
 
-        check_button = driver.find_element(
+        pincode_box = driver.find_element(
             By.XPATH,
             "//input[@placeholder='Enter pincode']"
         )
 
-        check_button.click()
+        pincode_box.click()
 
         time.sleep(2)
 

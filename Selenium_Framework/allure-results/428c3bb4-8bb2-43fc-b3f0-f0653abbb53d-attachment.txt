@@ -1,0 +1,14 @@
+[32mINFO    [0m root:logger.py:41 Myntra opened
+[32mINFO    [0m root:logger.py:41 Women section clicked
+[32mINFO    [0m root:logger.py:41 Ethnic wear page opened
+[32mINFO    [0m root:logger.py:41 Sarees filter selected
+[32mINFO    [0m root:logger.py:41 Blue color selected
+[32mINFO    [0m root:logger.py:41 Sorted by customer rating
+[32mINFO    [0m root:logger.py:41 Product selected
+[32mINFO    [0m root:logger.py:41 Product added to bag
+[32mINFO    [0m root:logger.py:41 Bag page opened
+[32mINFO    [0m root:logger.py:41 Quantity dropdown opened
+[32mINFO    [0m root:logger.py:41 Quantity changed to 2
+[32mINFO    [0m root:logger.py:41 Done button clicked
+[32mINFO    [0m root:logger.py:41 Donation amount selected
+[32mINFO    [0m root:logger.py:41 Place order clicked

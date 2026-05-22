@@ -1,0 +1,2 @@
+[32mINFO    [0m root:logger.py:41 Myntra opened
+[32mINFO    [0m root:logger.py:41 Women section clicked

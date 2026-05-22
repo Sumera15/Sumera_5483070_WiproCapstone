@@ -1,9 +1,6 @@
 from behave import given, when, then
 
-from pages.home_page import HomePage
-from pages.saree_page import SareePage
-from pages.checkout_page import CheckoutPage
-from pages.women_page import WomenPage
+from pages.end_to_end_page import EndToEndPage
 
 from utils.logger import log_message
 from utils.screenshot_util import take_screenshot
@@ -12,116 +9,85 @@ from utils.screenshot_util import take_screenshot
 @given("User launches Myntra application")
 def launch_app(context):
 
-    context.home = HomePage(
+    context.e2e = EndToEndPage(
         context.driver
     )
 
-    context.home.open_myntra()
+    context.e2e.open_myntra()
 
-    log_message("Myntra opened")
+    log_message(
+        "Myntra application launched successfully"
+    )
 
 
 @when("User hovers on Women section")
-def women(context):
+def hover_women(context):
 
-    context.home.hover_women()
+    context.e2e.hover_women_section()
 
-    log_message("Hovered on Women section")
-
-
-@when("User opens Fusion Wear page")
-def fusion(context):
-
-    context.women = WomenPage(
-        context.driver
+    log_message(
+        "Hovered on Women section successfully"
     )
 
-    context.women.open_ethnic_wear()
 
-    context.saree = SareePage(
-        context.driver
+@when("User opens Saree page")
+def open_saree(context):
+
+    context.e2e.open_saree_page()
+
+    log_message(
+        "Saree page opened successfully"
     )
 
-    assert "fusion-wear" in context.driver.current_url
 
-    log_message("Fusion Wear page opened")
-
-@when("User applies Sarees filter")
-def saree_filter(context):
-
-    context.saree.select_sarees_filter()
-
-    log_message("Sarees filter selected")
-
-
-@when("User selects Blue color filter")
+@when("User selects Blue saree color")
 def blue_filter(context):
 
-    context.saree.select_blue_color()
+    context.e2e.select_blue_color_filter()
 
-    log_message("Blue color selected")
-
-
-@when("User sorts products by Customer Rating")
-def sort_rating(context):
-
-    context.saree.sort_by_customer_rating()
-
-    log_message("Customer rating selected")
+    log_message(
+        "Blue color filter selected successfully"
+    )
 
 
 @when("User selects first saree product")
-def first_product(context):
+def select_product(context):
 
-    context.saree.select_first_product()
+    context.e2e.select_first_saree_product()
 
-    context.checkout = CheckoutPage(
-        context.driver
+    log_message(
+        "First saree product selected successfully"
     )
-
-    log_message("First product selected")
 
 
 @when("User adds product to bag")
 def add_bag(context):
 
-    context.checkout.add_to_bag()
+    context.e2e.add_product_to_bag()
 
-    log_message("Product added to bag")
+    log_message(
+        "Product added to bag successfully"
+    )
 
 
 @when("User opens bag page")
-def bag(context):
+def open_bag(context):
 
-    context.checkout.go_to_bag()
+    context.e2e.open_bag_page()
 
-    log_message("Bag page opened")
+    log_message(
+        "Bag page opened successfully"
+    )
 
 
 @when("User increases quantity to 2")
 def quantity(context):
 
-    context.checkout.increase_quantity()
+    context.e2e.change_product_quantity()
 
-    context.checkout.select_quantity_two()
-
-    log_message("Quantity increased to 2")
-
-
-@when("User selects quantity Done button")
-def done(context):
-
-    context.checkout.click_done_button()
-
-    log_message("Done button clicked")
-
-
-@when("User selects donation amount")
-def donation(context):
-
-    context.checkout.select_donation_amount()
-
-    log_message("Donation amount selected")
+    log_message(
+        "Quantity updated to 2 successfully"
+    )
 
 
 @when("User clicks Place Order")
@@ -132,19 +98,23 @@ def place_order(context):
         "Before_Place_Order"
     )
 
-    context.checkout.click_place_order()
+    context.e2e.click_place_order()
 
-    log_message("Place order clicked")
+    log_message(
+        "Place Order button clicked successfully"
+    )
 
 
 @then("User should navigate to login page")
 def login(context):
 
-    assert "login" in context.driver.current_url.lower()
+    context.e2e.validate_login_page()
 
     take_screenshot(
         context.driver,
         "Login_Page"
     )
 
-    log_message("Login page validated")
+    log_message(
+        "Login page validated successfully"
+    )

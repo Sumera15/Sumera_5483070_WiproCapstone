@@ -1,13 +1,19 @@
 import time
+import os
 import allure
 
 
-def take_screenshot(driver):
+if not os.path.exists("screenshots"):
+
+    os.makedirs("screenshots")
+
+
+def take_screenshot(driver, name):
 
     timestamp = int(time.time())
 
     screenshot_path = (
-        f"screenshots/screenshot_{timestamp}.png"
+        f"screenshots/{name}_{timestamp}.png"
     )
 
     driver.save_screenshot(screenshot_path)
@@ -16,6 +22,6 @@ def take_screenshot(driver):
 
         allure.attach(
             file.read(),
-            name=f"screenshot_{timestamp}",
+            name=f"{name}_{timestamp}",
             attachment_type=allure.attachment_type.PNG
         )

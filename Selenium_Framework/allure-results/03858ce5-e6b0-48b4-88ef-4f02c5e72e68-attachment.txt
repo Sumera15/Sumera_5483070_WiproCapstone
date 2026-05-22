@@ -1,6 +1,0 @@
-[32mINFO    [0m WDM:logger.py:11 ====== WebDriver manager ======
-[32mINFO    [0m WDM:logger.py:11 Driver [C:\Users\Aziz Shaik\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win64/chromedriver.exe] found in cache by browser version
-[32mINFO    [0m root:logger.py:38 Myntra opened
-[32mINFO    [0m root:logger.py:38 Earrings page opened
-[32mINFO    [0m root:logger.py:38 Earrings product selected
-[32mINFO    [0m root:logger.py:38 Product added to bag

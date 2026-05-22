@@ -3,6 +3,13 @@ from selenium.webdriver.common.action_chains import ActionChains
 
 from utils.waits import Waits
 
+import configparser
+
+
+config = configparser.ConfigParser()
+
+config.read("config/config.ini")
+
 
 class HomePage:
 
@@ -18,13 +25,16 @@ class HomePage:
     )
 
     def open_myntra(self):
-        self.driver.get(
-            "https://www.myntra.com"
+
+        url = config.get(
+            "DEFAULT",
+            "base_url"
         )
+
+        self.driver.get(url)
 
         self.driver.maximize_window()
 
-        
     def hover_women(self):
 
         women = self.wait.wait_for_visible(
@@ -34,4 +44,3 @@ class HomePage:
         ActionChains(self.driver).move_to_element(
             women
         ).perform()
-

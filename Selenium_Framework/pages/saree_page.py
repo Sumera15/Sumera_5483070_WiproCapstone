@@ -14,7 +14,10 @@ class SareePage:
             "//label[contains(text(),'Sarees')]"
         )
 
-        driver.execute_script("arguments[0].click();", saree) #Execute JavaScript click on saree element
+        driver.execute_script(
+            "arguments[0].click();",
+            saree
+        )
 
     def select_blue_color(self, driver):
 
@@ -25,15 +28,23 @@ class SareePage:
             "//label[contains(text(),'Blue')]"
         )
 
-        driver.execute_script("arguments[0].scrollIntoView({block: 'center'});", blue)
+        driver.execute_script(
+            "arguments[0].scrollIntoView({block: 'center'});",
+            blue
+        )
 
         time.sleep(3)
 
-        driver.execute_script("arguments[0].click();", blue)
+        driver.execute_script(
+            "arguments[0].click();",
+            blue
+        )
 
         time.sleep(5)
 
-        driver.execute_script("window.scrollTo(0, 0);")
+        driver.execute_script(
+            "window.scrollTo(0, 0);"
+        )
 
     def sort_by_customer_rating(self, driver):
 

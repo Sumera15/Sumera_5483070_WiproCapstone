@@ -25,7 +25,7 @@ class CheckoutPage:
 
     quantity = (
         By.XPATH,
-        "//div[contains(@class,'itemComponents-base-quantity')]"
+        "//div[contains(@class,'itemComponents-base-dropDown')]"
     )
 
     qty_two = (
@@ -75,17 +75,23 @@ class CheckoutPage:
         time.sleep(2)
 
     def increase_quantity(self):
-
         quantity = self.wait.wait_for_clickable(
             self.quantity
         )
+
+        self.driver.execute_script(
+            "arguments[0].scrollIntoView({block:'center'});",
+            quantity
+        )
+
+        time.sleep(2)
 
         self.driver.execute_script(
             "arguments[0].click();",
             quantity
         )
 
-        time.sleep(2)
+        print("Quantity dropdown opened successfully")
 
     def select_quantity_two(self):
 

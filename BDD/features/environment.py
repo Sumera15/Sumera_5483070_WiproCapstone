@@ -1,18 +1,40 @@
-
-
 from utils.driver_setup import get_driver
 from utils.logger import log_message
 
 import allure
 import os
+import configparser
+
+
+config = configparser.ConfigParser()
+
+config.read("config/config.ini")
 
 
 def before_scenario(context, scenario):
 
+    browser = config.get(
+        "DEFAULT",
+        "browser"
+    )
+
     context.driver = get_driver()
+
+    context.driver.implicitly_wait(
+        int(
+            config.get(
+                "DEFAULT",
+                "implicit_wait"
+            )
+        )
+    )
 
     log_message(
         f"Starting Scenario: {scenario.name}"
+    )
+
+    log_message(
+        f"Browser Used: {browser}"
     )
 
 

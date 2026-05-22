@@ -1,0 +1,4 @@
+[32mINFO    [0m root:logger.py:41 Myntra opened
+[32mINFO    [0m root:logger.py:41 Tshirt page opened
+[32mINFO    [0m root:logger.py:41 Product selected
+[32mINFO    [0m root:logger.py:41 Add to bag clicked without size

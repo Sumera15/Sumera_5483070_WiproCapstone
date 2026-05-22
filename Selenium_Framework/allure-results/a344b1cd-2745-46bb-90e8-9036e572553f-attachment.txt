@@ -1,0 +1,4 @@
+[32mINFO    [0m root:logger.py:41 Myntra opened
+[32mINFO    [0m root:logger.py:41 Earrings page opened
+[32mINFO    [0m root:logger.py:41 Earrings product selected
+[32mINFO    [0m root:logger.py:41 Product added to bag

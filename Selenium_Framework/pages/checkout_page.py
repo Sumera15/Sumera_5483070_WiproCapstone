@@ -3,6 +3,7 @@ import time
 
 
 class CheckoutPage:
+
     def add_to_bag(self, driver):
 
         time.sleep(5)
@@ -35,7 +36,6 @@ class CheckoutPage:
 
         time.sleep(5)
 
-
     def increase_quantity(self, driver):
 
         time.sleep(5)
@@ -45,7 +45,10 @@ class CheckoutPage:
             "//div[contains(@class,'itemComponents-base-quantity')]"
         )
 
-        driver.execute_script("arguments[0].click();", quantity)
+        driver.execute_script(
+            "arguments[0].click();",
+            quantity
+        )
 
     def select_quantity_two(self, driver):
 
@@ -72,7 +75,10 @@ class CheckoutPage:
             "//div[contains(text(),'DONE')]"
         )
 
-        driver.execute_script("arguments[0].click();", done)
+        driver.execute_script(
+            "arguments[0].click();",
+            done
+        )
 
     def select_donation_amount(self, driver):
 

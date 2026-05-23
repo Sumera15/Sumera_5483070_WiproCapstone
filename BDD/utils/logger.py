@@ -21,7 +21,9 @@ if not logger.handlers:
     console_handler = logging.StreamHandler()
 
     formatter = logging.Formatter(
-        "%(asctime)s - %(message)s"
+        "%(asctime)s : "
+        "%(levelname)s : "
+        "%(message)s"
     )
 
     file_handler.setFormatter(formatter)

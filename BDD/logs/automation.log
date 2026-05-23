@@ -1,221 +1,62 @@
-2026-05-21 21:33:10,586 - ====== WebDriver manager ======
-2026-05-21 21:33:12,133 - Driver [C:\Users\Aziz Shaik\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win64/chromedriver.exe] found in cache by browser version
-2026-05-21 21:33:13,551 - Starting Scenario: Successful saree purchase flow
-2026-05-21 21:33:14,419 - Myntra opened
-2026-05-21 21:33:21,039 - Hovered on Women section
-2026-05-21 21:33:37,725 - Completed Scenario: Successful saree purchase flow
-2026-05-21 21:33:40,734 - ====== WebDriver manager ======
-2026-05-21 21:33:42,440 - Driver [C:\Users\Aziz Shaik\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win64/chromedriver.exe] found in cache by browser version
-2026-05-21 21:39:48,360 - ====== WebDriver manager ======
-2026-05-21 21:39:50,162 - Driver [C:\Users\Aziz Shaik\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win64/chromedriver.exe] found in cache by browser version
-2026-05-21 21:39:52,226 - Starting Scenario: Successful saree purchase flow
-2026-05-21 21:39:56,117 - Myntra opened
-2026-05-21 21:39:58,883 - Hovered on Women section
-2026-05-21 21:40:03,040 - ====== WebDriver manager ======
-2026-05-21 21:40:06,454 - Driver [C:\Users\Aziz Shaik\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win64/chromedriver.exe] found in cache by browser version
-2026-05-21 21:40:07,694 - Starting Scenario: Verify Kurti Navigation
-2026-05-21 21:40:13,634 - Myntra opened
-2026-05-21 21:54:58,339 - ====== WebDriver manager ======
-2026-05-21 21:55:00,537 - Driver [C:\Users\Aziz Shaik\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win64/chromedriver.exe] found in cache by browser version
-2026-05-21 21:55:03,050 - Starting Scenario: Successful saree purchase flow
-2026-05-21 21:55:09,069 - Myntra opened
-2026-05-21 21:55:09,897 - Hovered on Women section
-2026-05-21 21:55:25,458 - Completed Scenario: Successful saree purchase flow
-2026-05-21 21:55:29,749 - ====== WebDriver manager ======
-2026-05-21 21:55:40,193 - Driver [C:\Users\Aziz Shaik\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win64/chromedriver.exe] found in cache by browser version
-2026-05-22 20:00:23,676 - ====== WebDriver manager ======
-2026-05-22 20:00:30,760 - Get LATEST chromedriver version for google-chrome
-2026-05-22 20:00:34,795 - Get LATEST chromedriver version for google-chrome
-2026-05-22 20:00:38,788 - WebDriver version 148.0.7778.178 selected
-2026-05-22 20:00:38,797 - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/148.0.7778.178/win64/chromedriver-win64.zip
-2026-05-22 20:00:38,797 - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/148.0.7778.178/win64/chromedriver-win64.zip
-2026-05-22 20:00:39,808 - Driver downloading response is 200
-2026-05-22 20:01:22,408 - Driver has been saved in cache [C:\Users\Aziz Shaik\.wdm\drivers\chromedriver\win64\148.0.7778.178]
-2026-05-22 20:01:24,026 - Starting Scenario: Successful saree purchase flow
-2026-05-22 20:01:24,027 - Browser Used: chrome
-2026-05-22 20:01:28,616 - Myntra opened successfully
-2026-05-22 20:01:29,574 - Hovered on Women section successfully
-2026-05-22 20:01:45,586 - Completed Scenario: Successful saree purchase flow
-2026-05-22 20:08:14,534 - ====== WebDriver manager ======
-2026-05-22 20:08:17,873 - Driver [C:\Users\Aziz Shaik\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win64/chromedriver.exe] found in cache by browser version
-2026-05-22 20:08:19,481 - Starting Scenario: Successful saree purchase flow
-2026-05-22 20:08:19,481 - Browser Used: chrome
-2026-05-22 20:08:38,627 - Myntra opened successfully
-2026-05-22 20:08:39,276 - Hovered on Women section successfully
-2026-05-22 20:08:48,724 - Fusion Wear page opened successfully
-2026-05-22 20:08:48,946 - Sarees filter applied successfully
-2026-05-22 20:08:50,178 - Blue color filter applied successfully
-2026-05-22 20:08:53,854 - Products sorted by customer rating successfully
-2026-05-22 20:08:59,079 - First saree product selected successfully
-2026-05-22 20:09:01,304 - Product added to bag successfully
-2026-05-22 20:09:05,817 - Bag page opened successfully
-2026-05-22 20:09:22,095 - Completed Scenario: Successful saree purchase flow
-2026-05-22 20:14:04,078 - ====== WebDriver manager ======
-2026-05-22 20:14:07,592 - Driver [C:\Users\Aziz Shaik\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win64/chromedriver.exe] found in cache by browser version
-2026-05-22 20:14:08,613 - Starting Scenario: Successful saree purchase flow
-2026-05-22 20:14:08,614 - Browser Used: chrome
-2026-05-22 20:14:16,024 - Myntra opened successfully
-2026-05-22 20:14:16,583 - Hovered on Women section successfully
-2026-05-22 20:14:27,999 - Fusion Wear page opened successfully
-2026-05-22 20:14:28,284 - Sarees filter applied successfully
-2026-05-22 20:14:29,698 - Blue color filter applied successfully
-2026-05-22 20:14:35,747 - Completed Scenario: Successful saree purchase flow
-2026-05-22 20:35:04,693 - ====== WebDriver manager ======
-2026-05-22 20:35:08,295 - Driver [C:\Users\Aziz Shaik\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win64/chromedriver.exe] found in cache by browser version
-2026-05-22 20:35:09,364 - Starting Scenario: Successful saree purchase flow
-2026-05-22 20:35:09,366 - Browser Used: chrome
-2026-05-22 20:35:16,683 - Myntra opened successfully
-2026-05-22 20:35:41,685 - Fusion Wear page opened successfully
-2026-05-22 20:35:41,882 - Sarees filter applied successfully
-2026-05-22 20:35:46,733 - Blue filter applied successfully
-2026-05-22 20:35:50,383 - Customer rating sorting applied
-2026-05-22 20:35:55,719 - First product selected successfully
-2026-05-22 20:35:56,022 - Product added to bag successfully
-2026-05-22 20:36:04,027 - Bag page opened successfully
-2026-05-22 20:51:40,643 - ====== WebDriver manager ======
-2026-05-22 20:51:44,416 - Driver [C:\Users\Aziz Shaik\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win64/chromedriver.exe] found in cache by browser version
-2026-05-22 20:51:45,979 - Starting Scenario: Successful saree purchase flow
-2026-05-22 20:51:45,979 - Browser Used: chrome
-2026-05-22 20:51:51,840 - Myntra application launched successfully
-2026-05-22 20:51:55,178 - Hovered on Women section successfully
-2026-05-22 20:52:02,649 - Saree page opened successfully
-2026-05-22 20:52:04,042 - Blue color filter selected successfully
-2026-05-22 20:52:11,285 - First saree product selected successfully
-2026-05-22 20:52:11,505 - Product added to bag successfully
-2026-05-22 20:52:15,389 - Bag page opened successfully
-2026-05-22 20:52:31,730 - Completed Scenario: Successful saree purchase flow
-2026-05-22 21:26:27,591 - ====== WebDriver manager ======
-2026-05-22 21:26:31,256 - Driver [C:\Users\Aziz Shaik\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win64/chromedriver.exe] found in cache by browser version
-2026-05-22 21:26:32,894 - Starting Scenario: Successful saree purchase flow
-2026-05-22 21:26:32,894 - Browser Used: chrome
-2026-05-22 21:26:41,296 - Myntra application launched successfully
-2026-05-22 21:26:42,111 - Completed Scenario: Successful saree purchase flow
-2026-05-22 21:35:27,861 - ====== WebDriver manager ======
-2026-05-22 21:35:31,990 - Driver [C:\Users\Aziz Shaik\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win64/chromedriver.exe] found in cache by browser version
-2026-05-22 21:35:33,636 - Starting Scenario: Successful saree purchase flow
-2026-05-22 21:35:33,637 - Browser Used: chrome
-2026-05-22 21:35:37,052 - Myntra application launched successfully
-2026-05-22 21:35:39,720 - Hovered on Women section successfully
-2026-05-22 21:35:45,616 - Saree page opened successfully
-2026-05-22 21:35:47,237 - Blue color filter selected successfully
-2026-05-22 21:35:55,036 - First saree product selected successfully
-2026-05-22 21:35:55,578 - Product added to bag successfully
-2026-05-22 21:35:59,602 - Bag page opened successfully
-2026-05-22 21:36:15,916 - Completed Scenario: Successful saree purchase flow
-2026-05-22 21:43:20,346 - ====== WebDriver manager ======
-2026-05-22 21:43:24,012 - Driver [C:\Users\Aziz Shaik\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win64/chromedriver.exe] found in cache by browser version
-2026-05-22 21:43:25,729 - Starting Scenario: Successful saree purchase flow
-2026-05-22 21:43:25,729 - Browser Used: chrome
-2026-05-22 21:43:28,774 - Myntra application launched successfully
-2026-05-22 21:43:31,163 - Hovered on Women section successfully
-2026-05-22 21:43:35,458 - Saree page opened successfully
-2026-05-22 21:43:36,789 - Blue color filter selected successfully
-2026-05-22 21:43:44,193 - First saree product selected successfully
-2026-05-22 21:43:44,866 - Product added to bag successfully
-2026-05-22 21:43:51,074 - Bag page opened successfully
-2026-05-22 21:44:07,449 - Completed Scenario: Successful saree purchase flow
-2026-05-22 21:48:15,902 - ====== WebDriver manager ======
-2026-05-22 21:48:19,583 - Driver [C:\Users\Aziz Shaik\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win64/chromedriver.exe] found in cache by browser version
-2026-05-22 21:48:20,580 - Starting Scenario: Successful saree purchase flow
-2026-05-22 21:48:20,580 - Browser Used: chrome
-2026-05-22 21:48:29,290 - Myntra application launched successfully
-2026-05-22 21:48:31,696 - Hovered on Women section successfully
-2026-05-22 21:48:35,584 - Saree page opened successfully
-2026-05-22 21:48:37,174 - Blue color filter selected successfully
-2026-05-22 21:48:44,572 - First saree product selected successfully
-2026-05-22 21:48:45,696 - Product added to bag successfully
-2026-05-22 21:48:51,256 - Bag page opened successfully
-2026-05-22 21:49:08,345 - Completed Scenario: Successful saree purchase flow
-2026-05-22 21:54:27,558 - ====== WebDriver manager ======
-2026-05-22 21:54:31,150 - Driver [C:\Users\Aziz Shaik\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win64/chromedriver.exe] found in cache by browser version
-2026-05-22 21:54:32,233 - Starting Scenario: Successful saree purchase flow
-2026-05-22 21:54:32,234 - Browser Used: chrome
-2026-05-22 21:54:45,225 - Myntra application launched successfully
-2026-05-22 21:54:47,642 - Hovered on Women section successfully
-2026-05-22 21:54:51,052 - Saree page opened successfully
-2026-05-22 21:54:52,404 - Blue color filter selected successfully
-2026-05-22 21:54:59,825 - First saree product selected successfully
-2026-05-22 21:55:00,365 - Product added to bag successfully
-2026-05-22 21:55:11,796 - Bag page opened successfully
-2026-05-22 21:55:14,471 - Quantity updated to 2 successfully
-2026-05-22 21:55:30,911 - Completed Scenario: Successful saree purchase flow
-2026-05-22 22:00:22,854 - ====== WebDriver manager ======
-2026-05-22 22:00:26,543 - Driver [C:\Users\Aziz Shaik\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win64/chromedriver.exe] found in cache by browser version
-2026-05-22 22:00:27,513 - Starting Scenario: Successful saree purchase flow
-2026-05-22 22:00:27,513 - Browser Used: chrome
-2026-05-22 22:00:35,761 - Myntra application launched successfully
-2026-05-22 22:00:38,178 - Hovered on Women section successfully
-2026-05-22 22:00:42,082 - Saree page opened successfully
-2026-05-22 22:00:43,226 - Blue color filter selected successfully
-2026-05-22 22:00:50,540 - First saree product selected successfully
-2026-05-22 22:00:51,060 - Product added to bag successfully
-2026-05-22 22:00:54,456 - Bag page opened successfully
-2026-05-22 22:01:11,371 - Completed Scenario: Successful saree purchase flow
-2026-05-22 22:06:00,578 - ====== WebDriver manager ======
-2026-05-22 22:06:04,321 - Driver [C:\Users\Aziz Shaik\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win64/chromedriver.exe] found in cache by browser version
-2026-05-22 22:06:05,312 - Starting Scenario: Successful saree purchase flow
-2026-05-22 22:06:05,312 - Browser Used: chrome
-2026-05-22 22:06:12,071 - Myntra application launched successfully
-2026-05-22 22:06:14,481 - Hovered on Women section successfully
-2026-05-22 22:06:18,324 - Saree page opened successfully
-2026-05-22 22:06:20,273 - Blue color filter selected successfully
-2026-05-22 22:06:28,113 - First saree product selected successfully
-2026-05-22 22:06:28,637 - Product added to bag successfully
-2026-05-22 22:06:33,381 - Bag page opened successfully
-2026-05-22 22:06:36,034 - Quantity updated to 2 successfully
-2026-05-22 22:06:54,488 - Completed Scenario: Successful saree purchase flow
-2026-05-22 22:09:04,588 - ====== WebDriver manager ======
-2026-05-22 22:09:08,259 - Driver [C:\Users\Aziz Shaik\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win64/chromedriver.exe] found in cache by browser version
-2026-05-22 22:09:09,285 - Starting Scenario: Successful saree purchase flow
-2026-05-22 22:09:09,285 - Browser Used: chrome
-2026-05-22 22:09:12,337 - Myntra application launched successfully
-2026-05-22 22:09:14,819 - Hovered on Women section successfully
-2026-05-22 22:09:21,414 - Saree page opened successfully
-2026-05-22 22:09:22,996 - Blue color filter selected successfully
-2026-05-22 22:09:30,784 - First saree product selected successfully
-2026-05-22 22:09:31,494 - Product added to bag successfully
-2026-05-22 22:09:34,888 - Bag page opened successfully
-2026-05-22 22:09:37,566 - Quantity updated to 2 successfully
-2026-05-22 22:09:55,939 - Completed Scenario: Successful saree purchase flow
-2026-05-22 22:12:53,763 - ====== WebDriver manager ======
-2026-05-22 22:12:56,920 - Driver [C:\Users\Aziz Shaik\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win64/chromedriver.exe] found in cache by browser version
-2026-05-22 22:12:57,901 - Starting Scenario: Successful saree purchase flow
-2026-05-22 22:12:57,902 - Browser Used: chrome
-2026-05-22 22:13:00,814 - Myntra application launched successfully
-2026-05-22 22:13:03,304 - Hovered on Women section successfully
-2026-05-22 22:13:09,560 - Saree page opened successfully
-2026-05-22 22:13:10,936 - Blue color filter selected successfully
-2026-05-22 22:13:18,232 - First saree product selected successfully
-2026-05-22 22:13:18,672 - Product added to bag successfully
-2026-05-22 22:13:23,315 - Bag page opened successfully
-2026-05-22 22:13:26,036 - Quantity updated to 2 successfully
-2026-05-22 22:13:45,412 - Completed Scenario: Successful saree purchase flow
-2026-05-22 22:18:00,529 - ====== WebDriver manager ======
-2026-05-22 22:18:03,968 - Driver [C:\Users\Aziz Shaik\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win64/chromedriver.exe] found in cache by browser version
-2026-05-22 22:18:05,097 - Starting Scenario: Successful saree purchase flow
-2026-05-22 22:18:05,097 - Browser Used: chrome
-2026-05-22 22:18:12,201 - Myntra application launched successfully
-2026-05-22 22:18:14,593 - Hovered on Women section successfully
-2026-05-22 22:18:21,103 - Saree page opened successfully
-2026-05-22 22:18:22,620 - Blue color filter selected successfully
-2026-05-22 22:18:29,997 - First saree product selected successfully
-2026-05-22 22:18:30,453 - Product added to bag successfully
-2026-05-22 22:18:35,716 - Bag page opened successfully
-2026-05-22 22:18:38,352 - Quantity updated to 2 successfully
-2026-05-22 22:18:44,893 - Place Order button clicked successfully
-2026-05-22 22:19:01,460 - Completed Scenario: Successful saree purchase flow
-2026-05-22 22:27:21,097 - ====== WebDriver manager ======
-2026-05-22 22:27:25,070 - Driver [C:\Users\Aziz Shaik\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win64/chromedriver.exe] found in cache by browser version
-2026-05-22 22:27:26,717 - Starting Scenario: Successful saree purchase flow
-2026-05-22 22:27:26,717 - Browser Used: chrome
-2026-05-22 22:27:36,768 - Myntra application launched successfully
-2026-05-22 22:27:39,143 - Hovered on Women section successfully
-2026-05-22 22:28:15,438 - Saree page opened successfully
-2026-05-22 22:28:16,796 - Blue color filter selected successfully
-2026-05-22 22:28:24,209 - First saree product selected successfully
-2026-05-22 22:28:24,877 - Product added to bag successfully
-2026-05-22 22:28:29,046 - Bag page opened successfully
-2026-05-22 22:28:31,902 - Quantity updated to 2 successfully
-2026-05-22 22:28:36,817 - Place Order button clicked successfully
-2026-05-22 22:28:42,176 - Login page validated successfully
-2026-05-22 22:28:42,767 - Completed Scenario: Successful saree purchase flow
+2026-05-23 12:34:43,789 : INFO : ====== WebDriver manager ======
+2026-05-23 12:34:48,370 : INFO : Driver [C:\Users\Aziz Shaik\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win64/chromedriver.exe] found in cache by browser version
+2026-05-23 12:34:49,815 : INFO : Starting Scenario: Successful saree purchase flow
+2026-05-23 12:34:49,816 : INFO : Browser Used: chrome
+2026-05-23 12:34:53,873 : INFO : Myntra application launched successfully
+2026-05-23 12:34:57,776 : INFO : Hovered on Women section successfully
+2026-05-23 12:35:01,630 : INFO : Saree page opened successfully
+2026-05-23 12:35:04,157 : INFO : Blue color filter selected successfully
+2026-05-23 12:35:11,794 : INFO : First saree product selected successfully
+2026-05-23 12:35:12,747 : INFO : Product added to bag successfully
+2026-05-23 12:35:17,720 : INFO : Bag page opened successfully
+2026-05-23 12:35:20,768 : INFO : Quantity updated to 2 successfully
+2026-05-23 12:35:27,612 : INFO : Place Order button clicked successfully
+2026-05-23 12:35:33,033 : INFO : Login page validated successfully
+2026-05-23 12:35:33,363 : INFO : Completed Scenario: Successful saree purchase flow
+2026-05-23 12:35:36,669 : INFO : ====== WebDriver manager ======
+2026-05-23 12:35:41,158 : INFO : Driver [C:\Users\Aziz Shaik\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win64/chromedriver.exe] found in cache by browser version
+2026-05-23 12:35:42,324 : INFO : Starting Scenario: Verify Kurti Navigation
+2026-05-23 12:35:42,325 : INFO : Browser Used: chrome
+2026-05-23 12:35:48,252 : INFO : Myntra opened
+2026-05-23 12:35:55,843 : INFO : Kurti page opened
+2026-05-23 12:35:56,816 : INFO : Completed Scenario: Verify Kurti Navigation
+2026-05-23 12:35:59,753 : INFO : ====== WebDriver manager ======
+2026-05-23 12:36:03,663 : INFO : Driver [C:\Users\Aziz Shaik\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win64/chromedriver.exe] found in cache by browser version
+2026-05-23 12:36:04,746 : INFO : Starting Scenario: Verify Pink Tshirt Filter
+2026-05-23 12:36:04,747 : INFO : Browser Used: chrome
+2026-05-23 12:36:10,637 : INFO : Myntra opened
+2026-05-23 12:36:25,135 : INFO : Tshirt page opened
+2026-05-23 12:36:48,917 : INFO : Pink filter applied
+2026-05-23 12:36:49,942 : INFO : Completed Scenario: Verify Pink Tshirt Filter
+2026-05-23 12:36:53,022 : INFO : ====== WebDriver manager ======
+2026-05-23 12:36:56,976 : INFO : Driver [C:\Users\Aziz Shaik\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win64/chromedriver.exe] found in cache by browser version
+2026-05-23 12:36:58,066 : INFO : Starting Scenario: Verify Earrings Add To Bag
+2026-05-23 12:36:58,068 : INFO : Browser Used: chrome
+2026-05-23 12:37:03,273 : INFO : Myntra opened
+2026-05-23 12:37:10,994 : INFO : Earrings page opened
+2026-05-23 12:37:16,775 : INFO : Earrings product selected
+2026-05-23 12:37:20,226 : INFO : Earrings added to bag
+2026-05-23 12:37:20,989 : INFO : Completed Scenario: Verify Earrings Add To Bag
+2026-05-23 12:37:23,790 : INFO : ====== WebDriver manager ======
+2026-05-23 12:37:27,704 : INFO : Driver [C:\Users\Aziz Shaik\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win64/chromedriver.exe] found in cache by browser version
+2026-05-23 12:37:28,795 : INFO : Starting Scenario: Verify Flats Sorting
+2026-05-23 12:37:28,796 : INFO : Browser Used: chrome
+2026-05-23 12:37:34,365 : INFO : Myntra opened
+2026-05-23 12:37:40,384 : INFO : Flats page opened
+2026-05-23 12:37:53,549 : INFO : Flats sorted
+2026-05-23 12:37:54,231 : INFO : Completed Scenario: Verify Flats Sorting
+2026-05-23 12:37:57,150 : INFO : ====== WebDriver manager ======
+2026-05-23 12:38:01,000 : INFO : Driver [C:\Users\Aziz Shaik\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win64/chromedriver.exe] found in cache by browser version
+2026-05-23 12:38:02,508 : INFO : Starting Scenario: Verify Size Validation
+2026-05-23 12:38:02,508 : INFO : Browser Used: chrome
+2026-05-23 12:38:06,012 : INFO : Myntra opened
+2026-05-23 12:38:28,299 : INFO : Tshirt product opened
+2026-05-23 12:38:38,645 : INFO : Clicked add to bag without size
+2026-05-23 12:38:40,093 : INFO : Completed Scenario: Verify Size Validation
+2026-05-23 12:38:43,212 : INFO : ====== WebDriver manager ======
+2026-05-23 12:38:47,471 : INFO : Driver [C:\Users\Aziz Shaik\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win64/chromedriver.exe] found in cache by browser version
+2026-05-23 12:38:48,664 : INFO : Starting Scenario: Verify Pincode Validation
+2026-05-23 12:38:48,665 : INFO : Browser Used: chrome
+2026-05-23 12:38:54,107 : INFO : Myntra opened
+2026-05-23 12:39:36,145 : INFO : Pincode validation checked
+2026-05-23 12:39:37,868 : INFO : Completed Scenario: Verify Pincode Validation

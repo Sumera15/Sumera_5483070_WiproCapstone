@@ -15,6 +15,9 @@ def launch_app(context):
 
     context.e2e.open_myntra()
 
+    assert "myntra" in context.driver.title.lower(), \
+        "Myntra homepage launch failed"
+
     log_message(
         "Myntra application launched successfully"
     )
@@ -24,6 +27,9 @@ def launch_app(context):
 def hover_women(context):
 
     context.e2e.hover_women_section()
+
+    assert "myntra" in context.driver.current_url.lower(), \
+        "Women section hover failed"
 
     log_message(
         "Hovered on Women section successfully"
@@ -35,6 +41,9 @@ def open_saree(context):
 
     context.e2e.open_saree_page()
 
+    assert "saree" in context.driver.current_url.lower(), \
+        "Saree page navigation failed"
+
     log_message(
         "Saree page opened successfully"
     )
@@ -44,6 +53,9 @@ def open_saree(context):
 def blue_filter(context):
 
     context.e2e.select_blue_color_filter()
+
+    assert "blue" in context.driver.page_source.lower(), \
+        "Blue color filter selection failed"
 
     log_message(
         "Blue color filter selected successfully"
@@ -55,6 +67,11 @@ def select_product(context):
 
     context.e2e.select_first_saree_product()
 
+    assert len(
+        context.driver.window_handles
+    ) > 1, \
+        "Product page did not open"
+
     log_message(
         "First saree product selected successfully"
     )
@@ -64,6 +81,16 @@ def select_product(context):
 def add_bag(context):
 
     context.e2e.add_product_to_bag()
+
+    assert (
+        "bag"
+        in
+        context.driver.page_source.lower()
+        or
+        "wishlist"
+        in
+        context.driver.page_source.lower()
+    ), "Add to bag failed"
 
     log_message(
         "Product added to bag successfully"
@@ -75,6 +102,16 @@ def open_bag(context):
 
     context.e2e.open_bag_page()
 
+    assert (
+        "bag"
+        in
+        context.driver.current_url.lower()
+        or
+        "cart"
+        in
+        context.driver.current_url.lower()
+    ), "Bag page open failed"
+
     log_message(
         "Bag page opened successfully"
     )
@@ -84,6 +121,9 @@ def open_bag(context):
 def quantity(context):
 
     context.e2e.change_product_quantity()
+
+    assert "qty: 2" in context.driver.page_source.lower(), \
+        "Quantity update failed"
 
     log_message(
         "Quantity updated to 2 successfully"
@@ -100,6 +140,9 @@ def place_order(context):
 
     context.e2e.click_place_order()
 
+    assert "login" in context.driver.page_source.lower(), \
+        "Place order flow failed"
+
     log_message(
         "Place Order button clicked successfully"
     )
@@ -109,6 +152,16 @@ def place_order(context):
 def login(context):
 
     context.e2e.validate_login_page()
+
+    assert (
+        "login"
+        in
+        context.driver.page_source.lower()
+        or
+        "login"
+        in
+        context.driver.current_url.lower()
+    ), "Login page validation failed"
 
     take_screenshot(
         context.driver,

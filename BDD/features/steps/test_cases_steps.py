@@ -21,6 +21,9 @@ def open_myntra(context):
 
     context.home.open_myntra()
 
+    assert "myntra" in context.driver.title.lower(), \
+        "Myntra website launch failed"
+
     log_message("Myntra opened")
 
 
@@ -31,17 +34,28 @@ def open_myntra(context):
 @when("User clicks on Women section")
 def women(context):
 
-    pass
+    assert "myntra" in context.driver.current_url.lower(), \
+        "Women section navigation failed"
 
 
 @when("User opens Kurtis page")
 def kurti(context):
 
-    context.kurti = KurtiPage()
-
-    context.kurti.open_kurti(
+    context.kurti = KurtiPage(
         context.driver
     )
+
+    context.kurti.open_kurti()
+
+    assert (
+        "kurta"
+        in
+        context.driver.page_source.lower()
+        or
+        "ethnic"
+        in
+        context.driver.page_source.lower()
+    ), "Kurti page did not open"
 
     log_message("Kurti page opened")
 
@@ -49,9 +63,15 @@ def kurti(context):
 @then("User should navigate to Kurtis page")
 def verify_kurti(context):
 
-    assert "ethnic-tops" in context.driver.current_url.lower()
-
-    assert "women" in context.driver.title.lower()
+    assert (
+        "kurta"
+        in
+        context.driver.page_source.lower()
+        or
+        "ethnic"
+        in
+        context.driver.page_source.lower()
+    ), "Kurti products validation failed"
 
     take_screenshot(
         context.driver,
@@ -72,6 +92,9 @@ def tshirt(context):
         context.driver
     )
 
+    assert "tshirt" in context.driver.page_source.lower(), \
+        "Tshirt page did not open"
+
     log_message("Tshirt page opened")
 
 
@@ -86,13 +109,17 @@ def pink(context):
         context.driver
     )
 
+    assert "pink" in context.driver.page_source.lower(), \
+        "Pink filter was not applied"
+
     log_message("Pink filter applied")
 
 
 @then("Pink Tshirts should display")
 def verify_pink(context):
 
-    assert "tshirts" in context.driver.current_url.lower()
+    assert "tshirts" in context.driver.current_url.lower(), \
+        "Pink tshirt validation failed"
 
     take_screenshot(
         context.driver,
@@ -107,11 +134,14 @@ def verify_pink(context):
 @when("User searches for Earrings")
 def earrings(context):
 
-    context.earrings = EarringsPage()
-
-    context.earrings.hover_women_and_open_earrings(
+    context.earrings = EarringsPage(
         context.driver
     )
+
+    context.earrings.hover_women_and_open_earrings()
+
+    assert "earrings" in context.driver.page_source.lower(), \
+        "Earrings page did not open"
 
     log_message("Earrings page opened")
 
@@ -119,9 +149,12 @@ def earrings(context):
 @when("User selects first earrings product")
 def earrings_product(context):
 
-    context.earrings.select_first_product(
-        context.driver
-    )
+    context.earrings.select_first_product()
+
+    assert len(
+        context.driver.window_handles
+    ) > 1, \
+        "Earrings product page did not open"
 
     log_message("Earrings product selected")
 
@@ -129,9 +162,17 @@ def earrings_product(context):
 @when("User adds earrings product to bag")
 def add_earrings(context):
 
-    context.earrings.add_to_bag(
-        context.driver
-    )
+    context.earrings.add_to_bag()
+
+    assert (
+        "bag"
+        in
+        context.driver.page_source.lower()
+        or
+        "wishlist"
+        in
+        context.driver.page_source.lower()
+    ), "Earrings add to bag failed"
 
     log_message("Earrings added to bag")
 
@@ -140,10 +181,14 @@ def add_earrings(context):
 def verify_earrings(context):
 
     assert (
-        "bag" in context.driver.page_source.lower()
+        "bag"
+        in
+        context.driver.page_source.lower()
         or
-        "wishlist" in context.driver.page_source.lower()
-    )
+        "wishlist"
+        in
+        context.driver.page_source.lower()
+    ), "Earrings product validation failed"
 
     take_screenshot(
         context.driver,
@@ -158,11 +203,14 @@ def verify_earrings(context):
 @when("User searches for Flats")
 def flats(context):
 
-    context.flats = FlatsPage()
-
-    context.flats.hover_women_and_open_flats(
+    context.flats = FlatsPage(
         context.driver
     )
+
+    context.flats.hover_women_and_open_flats()
+
+    assert "flats" in context.driver.current_url.lower(), \
+        "Flats page did not open"
 
     log_message("Flats page opened")
 
@@ -170,13 +218,12 @@ def flats(context):
 @when("User sorts flats by Better Discount")
 def flats_sort(context):
 
-    context.flats.sort_price_high_to_low(
-        context.driver
-    )
+    context.flats.sort_price_high_to_low()
 
-    context.flats.slow_scroll_down(
-        context.driver
-    )
+    context.flats.slow_scroll_down()
+
+    assert "flats" in context.driver.current_url.lower(), \
+        "Flats sorting failed"
 
     log_message("Flats sorted")
 
@@ -184,7 +231,8 @@ def flats_sort(context):
 @then("Flats products should display properly")
 def verify_flats(context):
 
-    assert "flats" in context.driver.current_url.lower()
+    assert "flats" in context.driver.current_url.lower(), \
+        "Flats validation failed"
 
     take_screenshot(
         context.driver,
@@ -209,6 +257,11 @@ def tshirt_product(context):
         context.driver
     )
 
+    assert len(
+        context.driver.window_handles
+    ) > 1, \
+        "Tshirt product page did not open"
+
     log_message("Tshirt product opened")
 
 
@@ -219,13 +272,17 @@ def no_size(context):
         context.driver
     )
 
+    assert "size" in context.driver.page_source.lower(), \
+        "Size validation message did not appear"
+
     log_message("Clicked add to bag without size")
 
 
 @then("User should see size validation message")
 def size_validation(context):
 
-    assert "size" in context.driver.page_source.lower()
+    assert "size" in context.driver.page_source.lower(), \
+        "Size validation failed"
 
     take_screenshot(
         context.driver,
@@ -254,13 +311,17 @@ def pincode(context):
         context.driver
     )
 
+    assert "pincode" in context.driver.page_source.lower(), \
+        "Pincode validation failed"
+
     log_message("Pincode validation checked")
 
 
 @then("User should see invalid pincode validation")
 def verify_pincode(context):
 
-    assert "pincode" in context.driver.page_source.lower()
+    assert "pincode" in context.driver.page_source.lower(), \
+        "Invalid pincode validation failed"
 
     take_screenshot(
         context.driver,

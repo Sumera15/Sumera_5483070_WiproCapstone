@@ -60,3 +60,71 @@
 2026-05-23 12:38:54,107 : INFO : Myntra opened
 2026-05-23 12:39:36,145 : INFO : Pincode validation checked
 2026-05-23 12:39:37,868 : INFO : Completed Scenario: Verify Pincode Validation
+2026-05-24 13:41:24,615 : INFO : ====== WebDriver manager ======
+2026-05-24 13:41:31,616 : INFO : Get LATEST chromedriver version for google-chrome
+2026-05-24 13:41:35,520 : INFO : Get LATEST chromedriver version for google-chrome
+2026-05-24 13:41:37,017 : INFO : WebDriver version 148.0.7778.178 selected
+2026-05-24 13:41:37,030 : INFO : Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/148.0.7778.178/win64/chromedriver-win64.zip
+2026-05-24 13:41:37,033 : INFO : About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/148.0.7778.178/win64/chromedriver-win64.zip
+2026-05-24 13:41:37,789 : INFO : Driver downloading response is 200
+2026-05-24 13:41:40,928 : INFO : Driver has been saved in cache [C:\Users\Aziz Shaik\.wdm\drivers\chromedriver\win64\148.0.7778.178]
+2026-05-24 13:41:42,331 : INFO : Starting Scenario: Successful saree purchase flow
+2026-05-24 13:41:42,332 : INFO : Browser Used: chrome
+2026-05-24 13:41:46,913 : INFO : Myntra application launched successfully
+2026-05-24 13:41:49,691 : INFO : Hovered on Women section successfully
+2026-05-24 13:41:52,678 : INFO : Saree page opened successfully
+2026-05-24 13:41:54,328 : INFO : Blue color filter selected successfully
+2026-05-24 13:42:01,646 : INFO : First saree product selected successfully
+2026-05-24 13:42:02,224 : INFO : Product added to bag successfully
+2026-05-24 13:42:05,884 : INFO : Bag page opened successfully
+2026-05-24 13:42:08,741 : INFO : Quantity updated to 2 successfully
+2026-05-24 13:42:14,768 : INFO : Place Order button clicked successfully
+2026-05-24 13:42:20,126 : INFO : Login page validated successfully
+2026-05-24 13:42:20,419 : INFO : Completed Scenario: Successful saree purchase flow
+2026-05-24 13:42:23,168 : INFO : ====== WebDriver manager ======
+2026-05-24 13:42:26,403 : INFO : Driver [C:\Users\Aziz Shaik\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win64/chromedriver.exe] found in cache by browser version
+2026-05-24 13:42:27,470 : INFO : Starting Scenario: Verify Kurti Navigation
+2026-05-24 13:42:27,471 : INFO : Browser Used: chrome
+2026-05-24 13:42:31,838 : INFO : Myntra opened
+2026-05-24 13:42:39,349 : INFO : Kurti page opened
+2026-05-24 13:42:40,349 : INFO : Completed Scenario: Verify Kurti Navigation
+2026-05-24 13:42:42,988 : INFO : ====== WebDriver manager ======
+2026-05-24 13:42:46,037 : INFO : Driver [C:\Users\Aziz Shaik\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win64/chromedriver.exe] found in cache by browser version
+2026-05-24 13:42:46,952 : INFO : Starting Scenario: Verify Pink Tshirt Filter
+2026-05-24 13:42:46,952 : INFO : Browser Used: chrome
+2026-05-24 13:42:51,149 : INFO : Myntra opened
+2026-05-24 13:43:05,632 : INFO : Tshirt page opened
+2026-05-24 13:43:29,204 : INFO : Pink filter applied
+2026-05-24 13:43:30,163 : INFO : Completed Scenario: Verify Pink Tshirt Filter
+2026-05-24 13:43:32,721 : INFO : ====== WebDriver manager ======
+2026-05-24 13:43:35,794 : INFO : Driver [C:\Users\Aziz Shaik\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win64/chromedriver.exe] found in cache by browser version
+2026-05-24 13:43:36,726 : INFO : Starting Scenario: Verify Earrings Add To Bag
+2026-05-24 13:43:36,726 : INFO : Browser Used: chrome
+2026-05-24 13:43:41,039 : INFO : Myntra opened
+2026-05-24 13:43:48,479 : INFO : Earrings page opened
+2026-05-24 13:43:53,862 : INFO : Earrings product selected
+2026-05-24 13:43:57,467 : INFO : Earrings added to bag
+2026-05-24 13:43:58,202 : INFO : Completed Scenario: Verify Earrings Add To Bag
+2026-05-24 13:44:00,922 : INFO : ====== WebDriver manager ======
+2026-05-24 13:44:04,013 : INFO : Driver [C:\Users\Aziz Shaik\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win64/chromedriver.exe] found in cache by browser version
+2026-05-24 13:44:05,036 : INFO : Starting Scenario: Verify Flats Sorting
+2026-05-24 13:44:05,037 : INFO : Browser Used: chrome
+2026-05-24 13:44:09,129 : INFO : Myntra opened
+2026-05-24 13:44:15,110 : INFO : Flats page opened
+2026-05-24 13:44:28,230 : INFO : Flats sorted
+2026-05-24 13:44:29,006 : INFO : Completed Scenario: Verify Flats Sorting
+2026-05-24 13:44:31,696 : INFO : ====== WebDriver manager ======
+2026-05-24 13:44:34,884 : INFO : Driver [C:\Users\Aziz Shaik\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win64/chromedriver.exe] found in cache by browser version
+2026-05-24 13:44:35,809 : INFO : Starting Scenario: Verify Size Validation
+2026-05-24 13:44:35,809 : INFO : Browser Used: chrome
+2026-05-24 13:44:40,202 : INFO : Myntra opened
+2026-05-24 13:45:04,492 : INFO : Tshirt product opened
+2026-05-24 13:45:14,765 : INFO : Clicked add to bag without size
+2026-05-24 13:45:15,855 : INFO : Completed Scenario: Verify Size Validation
+2026-05-24 13:45:18,422 : INFO : ====== WebDriver manager ======
+2026-05-24 13:45:21,490 : INFO : Driver [C:\Users\Aziz Shaik\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win64/chromedriver.exe] found in cache by browser version
+2026-05-24 13:45:22,431 : INFO : Starting Scenario: Verify Pincode Validation
+2026-05-24 13:45:22,432 : INFO : Browser Used: chrome
+2026-05-24 13:45:26,528 : INFO : Myntra opened
+2026-05-24 13:46:06,904 : INFO : Pincode validation checked
+2026-05-24 13:46:07,747 : INFO : Completed Scenario: Verify Pincode Validation

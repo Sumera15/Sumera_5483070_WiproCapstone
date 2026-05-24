@@ -1,38 +1,40 @@
-2026-05-22 10:52:51,335 : INFO : Myntra opened
-2026-05-22 10:53:12,597 : INFO : Kurti page opened
-2026-05-22 10:53:27,031 : INFO : Myntra opened
-2026-05-22 10:53:41,205 : INFO : Tshirt page opened
-2026-05-22 10:53:54,844 : INFO : Pink color selected
-2026-05-22 10:54:05,454 : INFO : Slow scrolling completed
-2026-05-22 10:54:19,455 : INFO : Myntra opened
-2026-05-22 10:54:39,761 : INFO : Earrings page opened
-2026-05-22 10:54:50,654 : INFO : Earrings product selected
-2026-05-22 10:55:01,666 : INFO : Product added to bag
-2026-05-22 10:55:18,433 : INFO : Myntra opened
-2026-05-22 10:55:32,544 : INFO : Flats page opened
-2026-05-22 10:55:44,582 : INFO : Price High to Low selected
-2026-05-22 10:56:01,026 : INFO : Slow scrolling completed
-2026-05-22 10:56:14,172 : INFO : Myntra opened
-2026-05-22 10:56:28,606 : INFO : Tshirt page opened
-2026-05-22 10:56:39,409 : INFO : Product selected
-2026-05-22 10:56:49,997 : INFO : Add to bag clicked without size
-2026-05-22 10:57:02,769 : INFO : Myntra opened
-2026-05-22 10:57:17,171 : INFO : Heels page opened
-2026-05-22 10:57:27,998 : INFO : Product selected
-2026-05-22 10:57:44,986 : INFO : Check clicked without entering pincode
-2026-05-22 10:57:58,537 : INFO : Myntra opened
-2026-05-22 10:58:03,652 : INFO : Women section clicked
-2026-05-22 10:58:19,871 : INFO : Ethnic wear page opened
-2026-05-22 10:58:26,657 : INFO : Sarees filter selected
-2026-05-22 10:58:41,349 : INFO : Blue color selected
-2026-05-22 10:59:00,306 : INFO : Sorted by customer rating
-2026-05-22 10:59:14,079 : INFO : Product selected
-2026-05-22 10:59:27,917 : INFO : Product added to bag
-2026-05-22 10:59:43,110 : INFO : Bag page opened
-2026-05-22 10:59:51,579 : INFO : Quantity dropdown opened
-2026-05-22 11:00:00,958 : INFO : Quantity changed to 2
-2026-05-22 11:00:06,483 : INFO : Done button clicked
-2026-05-22 11:00:15,158 : INFO : Donation amount selected
-2026-05-22 11:00:31,949 : INFO : Place order clicked
-2026-05-22 16:38:02,551 : INFO : Myntra opened
-2026-05-22 16:38:09,932 : INFO : Women section clicked
+2026-05-24 12:40:06,933 : INFO : Myntra opened
+2026-05-24 12:40:21,070 : INFO : Kurti page opened
+2026-05-24 12:40:31,274 : INFO : Myntra opened
+2026-05-24 12:40:48,458 : INFO : Tshirt page opened
+2026-05-24 12:41:02,180 : INFO : Pink color selected
+2026-05-24 12:41:12,675 : INFO : Slow scrolling completed
+2026-05-24 12:41:22,294 : INFO : Myntra opened
+2026-05-24 12:41:40,303 : INFO : Earrings page opened
+2026-05-24 12:41:51,025 : INFO : Earrings product selected
+2026-05-24 12:42:01,707 : INFO : Product added to bag
+2026-05-24 12:42:14,324 : INFO : Myntra opened
+2026-05-24 12:42:28,494 : INFO : Flats page opened
+2026-05-24 12:42:40,321 : INFO : Price High to Low selected
+2026-05-24 12:42:56,703 : INFO : Slow scrolling completed
+2026-05-24 12:43:10,193 : INFO : Myntra opened
+2026-05-24 12:43:22,026 : INFO : Tshirt page opened
+2026-05-24 12:43:32,682 : INFO : Product selected
+2026-05-24 12:43:43,370 : INFO : Add to bag clicked without size
+2026-05-24 12:43:57,720 : INFO : Myntra opened
+2026-05-24 12:44:14,791 : INFO : Heels page opened
+2026-05-24 12:44:25,375 : INFO : Product selected
+2026-05-24 12:44:41,805 : INFO : Check clicked without entering pincode
+2026-05-24 12:44:55,403 : INFO : Myntra opened
+2026-05-24 12:45:02,145 : INFO : Women section clicked
+2026-05-24 12:45:17,806 : INFO : Ethnic wear page opened
+2026-05-24 12:45:26,577 : INFO : Sarees filter selected
+2026-05-24 12:45:43,349 : INFO : Blue color selected
+2026-05-24 12:46:04,319 : INFO : Sorted by customer rating
+2026-05-24 12:46:20,030 : INFO : Product selected
+2026-05-24 12:46:36,059 : INFO : Product added to bag
+2026-05-24 12:46:53,207 : INFO : Bag page opened
+2026-05-24 12:47:03,664 : INFO : Quantity dropdown opened
+2026-05-24 12:47:15,001 : INFO : Quantity changed to 2
+2026-05-24 12:47:22,549 : INFO : Done button clicked
+2026-05-24 12:47:33,156 : INFO : Donation amount selected
+2026-05-24 12:47:57,354 : INFO : Place order clicked
+2026-05-24 12:50:02,389 : INFO : Myntra opened
+2026-05-24 12:50:19,004 : INFO : Flats page opened
+2026-05-24 12:50:30,740 : INFO : Price High to Low selected
+2026-05-24 12:50:47,291 : INFO : Slow scrolling completed

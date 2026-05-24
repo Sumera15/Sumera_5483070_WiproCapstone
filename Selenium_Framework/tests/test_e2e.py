@@ -31,15 +31,13 @@ def test_end_to_end_flow(driver, color):
 
     take_screenshot(driver, "myntra_homepage")
 
-    time.sleep(3)
+    time.sleep(5)
 
     home.click_women(driver)
 
     log_message("Women section clicked")
 
-    take_screenshot(driver, "women_section_opened")
-
-    time.sleep(3)
+    time.sleep(5)
 
     women.open_ethnic_wear(driver)
 
@@ -50,7 +48,7 @@ def test_end_to_end_flow(driver, color):
 
     take_screenshot(driver, "fusion_wear_page_opened")
 
-    time.sleep(3)
+    time.sleep(5)
 
     saree.select_sarees_filter(driver)
 
@@ -58,7 +56,7 @@ def test_end_to_end_flow(driver, color):
 
     take_screenshot(driver, "sarees_filter_selected")
 
-    time.sleep(3)
+    time.sleep(5)
 
     if color == "Blue":
 
@@ -68,7 +66,7 @@ def test_end_to_end_flow(driver, color):
 
         take_screenshot(driver, "blue_color_selected")
 
-    time.sleep(3)
+    time.sleep(5)
 
     saree.sort_by_customer_rating(driver)
 
@@ -76,15 +74,15 @@ def test_end_to_end_flow(driver, color):
 
     take_screenshot(driver, "sorted_by_customer_rating")
 
-    time.sleep(3)
+    time.sleep(5)
 
     saree.select_first_product(driver)
 
     log_message("Product selected")
 
-    take_screenshot(driver, "saree_product_selected")
+    time.sleep(5)
 
-    time.sleep(3)
+    take_screenshot(driver, "saree_product_selected")
 
     checkout.add_to_bag(driver)
 
@@ -92,7 +90,7 @@ def test_end_to_end_flow(driver, color):
 
     take_screenshot(driver, "product_added_to_bag")
 
-    time.sleep(3)
+    time.sleep(5)
 
     checkout.go_to_bag(driver)
 
@@ -104,7 +102,7 @@ def test_end_to_end_flow(driver, color):
 
     take_screenshot(driver, "bag_page_opened")
 
-    time.sleep(3)
+    time.sleep(5)
 
     checkout.increase_quantity(driver)
 
@@ -112,7 +110,7 @@ def test_end_to_end_flow(driver, color):
 
     take_screenshot(driver, "quantity_dropdown_opened")
 
-    time.sleep(3)
+    time.sleep(5)
 
     checkout.select_quantity_two(driver)
 
@@ -120,7 +118,7 @@ def test_end_to_end_flow(driver, color):
 
     take_screenshot(driver, "quantity_changed_to_2")
 
-    time.sleep(3)
+    time.sleep(5)
 
     checkout.click_done_button(driver)
 
@@ -128,7 +126,7 @@ def test_end_to_end_flow(driver, color):
 
     take_screenshot(driver, "done_button_clicked")
 
-    time.sleep(3)
+    time.sleep(5)
 
     checkout.select_donation_amount(driver)
 
@@ -136,9 +134,11 @@ def test_end_to_end_flow(driver, color):
 
     take_screenshot(driver, "donation_amount_selected")
 
-    time.sleep(3)
+    time.sleep(5)
 
     checkout.click_place_order(driver)
+
+    time.sleep(5)
 
     assert "login" in driver.page_source.lower(), \
         "Login page did not display"
